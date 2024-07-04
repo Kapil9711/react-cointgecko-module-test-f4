@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    padding-block:100px;
+    color:white;
+    position: relative;
+
+    @media (max-width:550px){
+        padding: 100px 10px;
+    }
+
+}
+
+#root{
+    min-height: 100vh;
+    width: 1050px;
+    margin-inline:auto;
+    @media (max-width:550px){
+        overflow-x: scroll;
+    }
+}

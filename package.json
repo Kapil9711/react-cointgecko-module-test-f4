@@ -1,0 +1,32 @@
+{
+  "name": "react-coingecko",
+  "homepage": "https://kapil9711.github.io/react-coingecko/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d ./dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.77.5",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
